@@ -1,0 +1,26 @@
+{
+  "name": "wanderfounds",
+  "private": true,
+  "workspaces": [
+    "apps/web/*",
+  "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "Wanderfounds is a travel budget management application that helps users plan, track, and compare planned vs. actual expenses across multiple trips, all connected to a yearly budget overview.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev --workspace=wanderfoundsapp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeatrizCSSantos/wanderfounds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeatrizCSSantos/wanderfounds/issues"
+  },
+  "homepage": "https://github.com/BeatrizCSSantos/wanderfounds#readme"
+}
