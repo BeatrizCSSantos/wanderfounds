@@ -4,6 +4,13 @@
 # belong in git's global ignore instead:
 # `$XDG_CONFIG_HOME/git/ignore` or `~/.config/git/ignore`
 
+/log/*
+/tmp/*
+/storage/*
+/node_modules
+/public/assets
+
+
 # Ignore bundler config.
 /.bundle
 
@@ -33,3 +40,12 @@
 # Ignore key files for decrypting credentials and more.
 /config/*.key
 
+# Database
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Master key
+/config/master.key
+
+# Credentials
+/config/credentials/*.key

@@ -1,5 +1,14 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
 # dependencies
 /node_modules
 /.pnp
@@ -19,6 +28,8 @@
 
 # production
 /build
+dist/
+build/
 
 # misc
 .DS_Store
@@ -39,3 +50,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Coverage
+coverage/
+
+# Node (caso use workspace)
+node_modules/
+package-lock.json
